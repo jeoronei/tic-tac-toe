@@ -42,10 +42,20 @@ body {
   
   .game {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   
   .game-info {
     margin-left: 20px;
   }
   
+  .board {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .box-radio {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+  }
